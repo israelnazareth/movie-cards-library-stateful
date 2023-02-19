@@ -19,8 +19,20 @@ body {
   text-align: center;
 }
 
+.search-area {
+  text-align: center;
+}
+
+.search-bar-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+}
+
 .movie-list {
   display: flex;
+  justify-content: center;
   flex-flow: row wrap;
   padding: 48px 30px;
 }
